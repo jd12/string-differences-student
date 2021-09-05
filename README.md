@@ -1,4 +1,5 @@
 # String Differences
+
 Write a complete program in a single class called StringDifferences that does following:
 Prompt the user to enter two strings:
 
@@ -56,3 +57,15 @@ Number of differences: 8
 ```
 
 Note: Umass is where Mr. DeVaughn-Brown and Mx. Collard went to graduate school.
+
+## Tip: Scanner
+
+Use [Scanner](https://www.w3schools.com/java/java_user_input.asp) to read from the keyboard.
+
+If
+`scan`
+
+is a Scanner object, then
+`String inputStr = scan.nextLine();`
+
+will read an entire line from the keyboard, and copy it to the String inputStr.
